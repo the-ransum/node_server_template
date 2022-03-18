@@ -1,0 +1,30 @@
+{
+  "name": "node_server_template",
+  "version": "1.0.0",
+  "description": "A simple express server template.",
+  "main": "app.js",
+  "author": {
+	  "name": "Kevin Haas",
+	  "url": "https://github.com/the-ransum"
+  },
+  "repository": {
+	  "type": "git",
+	  "url": "https://github.com/the-ransum/node_server_template.git"
+  },
+  "scripts": {
+    "test": "nodemon ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "nodemonConfig": {
+    "ignore": ["test/*", "docs/*"],
+    "delay": 2500
+  }
+}
