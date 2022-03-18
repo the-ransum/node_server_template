@@ -12,7 +12,8 @@
 	  "url": "https://github.com/the-ransum/node_server_template.git"
   },
   "scripts": {
-    "test": "nodemon ."
+    "test": "nodemon .",
+	"start": "node ."
   },
   "author": "",
   "license": "ISC",
